@@ -6,7 +6,7 @@ import tensorflow as tf
 # --- Cargar el modelo Keras (.keras) ---
 @st.cache_resource
 def cargar_modelo():
-    modelo = tf.keras.models.load_model("model_VGG16_v1.keras")
+    modelo = tf.keras.models.load_model("model_VGG16_v1-Sp.keras")
     return modelo
 
 # --- Preprocesamiento para VGG16 ---
